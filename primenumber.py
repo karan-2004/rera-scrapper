@@ -69,15 +69,9 @@ def details(number):
     close[0].click()
 
 
-random_values= random.sample(range(1, 197), 6) 
+for i in range(1, 7):
+	print(details(i)) 
 
-# you can use 1 t0 196 
 
-details(2)
-details(6)
-details(99)
-details(100)
-details(105)
-details(108)
 
 time.sleep(100)
